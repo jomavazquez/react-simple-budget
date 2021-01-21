@@ -1,0 +1,111 @@
+body {
+  background: #000428;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  
+  background: linear-gradient(to right, #004e92, #000428); 
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0
+}
+
+.container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.abs-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%
+}
+
+h1 {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 4.8rem !important;
+  font-weight: 100;
+  text-align: center  
+}
+
+h2 {
+  color: #004e92;
+  font-family: 'Raleway', sans-serif;
+  font-size:3rem! important;
+  font-weight: 100;
+  margin-bottom: 30px;  
+  text-align: center
+}
+
+.content {
+  padding:20px
+}
+
+.main-content {
+  background-color: white;
+  border-radius: 20px
+}
+
+.mb-2 {
+  margin-bottom: 2rem
+}
+
+.my-costs li{
+  border-bottom: 1px solid #e1e1e1;
+  list-style: none;
+  margin-bottom: 0rem;
+  padding: 1rem 0
+}
+
+.my-costs li:last-of-type {
+  margin-bottom: 0 !important
+}
+
+.my-costs li p {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin:0
+}
+
+.my-costs li p .gasto {
+  background-color: #004085;
+  color:white;
+  padding: 1rem  
+}
+
+.alert {
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  margin-bottom: 1rem;
+  padding: .75rem 1.25rem;
+  position: relative
+}
+
+.alert p {
+  margin-bottom: 0 !important
+}
+
+.alert-primary {
+  background-color: #cce5ff;
+  border-color: #b8daff;
+  color: #004085
+}
+
+.alert-danger {
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  color: #721c24
+}
+
+.alert-success {
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  color: #155724
+}
+
+.alert-warning {
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+  color: #856404
+}
